@@ -1,5 +1,3 @@
 package io.gartner.gameai
 
-class Goal(val name: String) {
-
-}
+case class Goal(val name: String, val conditions: Seq[State])
