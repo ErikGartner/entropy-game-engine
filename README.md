@@ -1,4 +1,6 @@
 # Game AI
+[![Build Status](https://travis-ci.org/ErikGartner/game-ai.svg?branch=master)](https://travis-ci.org/ErikGartner/game-ai)
+
 *This is an exploratory attempt at constructing an [Interactive Story](https://en.wikipedia.org/wiki/Interactive_storytelling) engine*
 
 The idea is to create an advanced ai engine that plans actions for characters
