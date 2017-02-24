@@ -3,10 +3,12 @@ import io.gartner.gameai._
 
 class CharacterSpec extends FlatSpec with Matchers {
 
-  "Characters" should "have a name" in {
-    val c = new Character("Erik", List())
+  trait BorisCharacter {
+    val boris = new Character("Boris the Blade", List())
+  }
 
-    assert(c.name == "Erik")
+  "Characters" should "have a name" in new BorisCharacter {
+    assert(boris.name == "Boris the Blade")
   }
 
 }

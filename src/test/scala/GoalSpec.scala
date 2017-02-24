@@ -3,10 +3,12 @@ import io.gartner.gameai._
 
 class GoalSpec extends FlatSpec with Matchers {
 
-  "Goals" should "have a name" in {
-    val g = new Goal("Get money")
+  trait GetRichGoal {
+    val goal = new Goal("Get money")
+  }
 
-    assert(g.name == "Get money")
+  "Goals" should "have names" in new GetRichGoal {
+    assert(goal.name == "Get money")
   }
 
 }
