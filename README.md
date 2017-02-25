@@ -6,6 +6,11 @@
 The idea is to create an advanced ai engine that plans actions for characters
 based on their goals, states, knowledge in a closed world.
 
+## Design
+Entropy's central concept is that characters are proactive agents that actively pursue some set of goals.
+
+![Conceptual Design](https://docs.google.com/drawings/d/13o-5cGC5wXaMtvw2RXh2hH4BqHASez4oiPGbMfWZon0/pub?w=1815&amp;h=1057)
+
 ## Installation
 
 Run using sbt:
