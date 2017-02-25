@@ -12,5 +12,4 @@ class CharacterSpec extends FlatSpec with Matchers {
     assert(boris.goals.contains(borisGetRich))
   }
 
-
 }
