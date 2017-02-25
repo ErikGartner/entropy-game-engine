@@ -1,4 +1,4 @@
-package io.gartner.gameai
+package io.gartner.entropy
 
 object Engine {
 

@@ -1,5 +1,5 @@
 import org.scalatest._
-import io.gartner.gameai._
+import io.gartner.entropy._
 
 class GoalSpec extends FlatSpec with Matchers {
 

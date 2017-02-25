@@ -1,4 +1,4 @@
-name := """game-ai"""
+name := """entropy-game-engine"""
 
 version := "1.0"
 
@@ -9,4 +9,3 @@ libraryDependencies += "org.scalatest" %% "scalatest" % "2.2.4" % "test"
 
 // Uncomment to use Akka
 //libraryDependencies += "com.typesafe.akka" %% "akka-actor" % "2.3.11"
-
