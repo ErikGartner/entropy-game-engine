@@ -26,3 +26,6 @@ sbt test
 ## Further Reading
 
 - [U-DIRECTOR](http://dl.acm.org/citation.cfm?id=1160808)
+- [Non-Linear Interactive Storytelling Using Object-Oriented Bayesian Networks (2004)](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.552.7311)
+- [Generation of Adaptive Dilemma-Based
+Interactive Narratives](http://ieeexplore.ieee.org/document/5345846/?reload=true)
