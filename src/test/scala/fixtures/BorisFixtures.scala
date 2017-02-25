@@ -1,8 +1,10 @@
 import org.scalatest._
 import io.gartner.gameai._
 
+import scala.collection._
+
 trait BorisCharacter {
-  val boris = new Character("Boris the Blade")
+  val boris = new Character("Boris the Blade", mutable.ListBuffer())
 }
 
 trait MoneyObject {
@@ -14,5 +16,5 @@ trait BorisHasMoneyState extends BorisCharacter with MoneyObject{
 }
 
 trait BorisGetRichGoal extends BorisHasMoneyState{
-  val goal = new Goal("Get the money", Seq(borisHasTheMoney))
+  val borisGetRich = new Goal("Get the money", Seq(borisHasTheMoney))
 }
