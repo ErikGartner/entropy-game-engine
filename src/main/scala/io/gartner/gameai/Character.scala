@@ -1,4 +1,6 @@
 package io.gartner.gameai
 
-class Character(val name: String, goals: Seq[Goal] = Seq()) {
+import scala.collection._
+
+class Character(val name: String, val goals: mutable.Seq[Goal] = mutable.Seq()) {
 }
