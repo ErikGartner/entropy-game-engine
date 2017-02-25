@@ -1,7 +1,7 @@
 # Entropy Game Engine
 [![Build Status](https://travis-ci.org/ErikGartner/game-ai.svg?branch=master)](https://travis-ci.org/ErikGartner/game-ai)
 
-*For every action, there is a reaction, and a Piker reaction is quite a fuckin' thing. - Turkish in Snatch (2000)*
+*For every action, there is a reaction, and a Piker reaction is quite a fuckin' thing.* - Turkish in Snatch (2000)
 
 The idea is to create an advanced ai engine that plans actions for characters
 based on their goals, states, knowledge in a closed world.
