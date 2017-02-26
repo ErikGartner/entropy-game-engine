@@ -12,4 +12,8 @@ class CharacterSpec extends FlatSpec with Matchers {
     assert(boris.goals.contains(borisGetRich))
   }
 
+  it should "not be equal to each other" in new GuyRitchieWorld {
+    assert(boris != vinny)
+  }
+
 }
