@@ -5,7 +5,7 @@ import scala.collection.mutable
 
 trait GuyRitchieWorld extends BorisHasMoneyState with BarLocation {
 
-  val vinny = new Character("Vinny", mutable.ListBuffer())
+  val vinny = Character("Vinny", Seq())
 
   val vinnyHasTheMoney = new CharacterHasObject(vinny, money)
   val vinnyAtTheBar = new CharacterAtLocation(vinny, theBar)

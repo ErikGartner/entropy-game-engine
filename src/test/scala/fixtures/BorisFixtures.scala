@@ -4,7 +4,7 @@ import io.gartner.entropy._
 import scala.collection._
 
 trait BorisCharacter {
-  val boris = new Character("Boris the Blade", mutable.ListBuffer())
+  var boris = Character("Boris the Blade", mutable.ListBuffer())
 }
 
 trait MoneyObject {
