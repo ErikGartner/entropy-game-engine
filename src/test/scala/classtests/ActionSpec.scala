@@ -7,5 +7,4 @@ class ActionSpec extends FlatSpec with Matchers {
     assert(takeTheMoneyAction.name == "Take The Money")
   }
 
-
 }

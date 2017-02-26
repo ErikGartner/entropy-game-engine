@@ -1,5 +1,3 @@
 package io.gartner.entropy
 
-class Object(val name: String) {
-
-}
+case class Object(val name: String)
