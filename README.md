@@ -1,5 +1,5 @@
 # Entropy Game Engine
-[![Build Status](https://travis-ci.org/ErikGartner/game-ai.svg?branch=master)](https://travis-ci.org/ErikGartner/game-ai)
+[![Build Status](https://travis-ci.org/ErikGartner/entropy-game-engine.svg?branch=master)](https://travis-ci.org/ErikGartner/entropy-game-engine)
 
 *For every action, there is a reaction, and a Piker reaction is quite a fuckin' thing.* - Turkish in Snatch (2000)
 
