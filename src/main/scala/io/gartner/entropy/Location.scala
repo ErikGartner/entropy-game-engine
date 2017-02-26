@@ -1,5 +1,3 @@
 package io.gartner.entropy
 
-class Location() {
-
-}
+class Location(val name: String) 
