@@ -1,5 +1,10 @@
 package io.gartner.entropy
 
-class Director(world: World, characters: Seq[Character]) {
+class Director(world: World,
+               val possibleActions: Seq[Action]) {
+
+  def nextAction(): Action = {
+    ???
+  }
 
 }

@@ -11,10 +11,14 @@ trait MoneyObject {
   val money = new Object("The Money")
 }
 
-trait BorisHasMoneyState extends BorisCharacter with MoneyObject{
+trait BorisHasMoneyState extends BorisCharacter with MoneyObject {
   val borisHasTheMoney = new CharacterHasObject(boris, money)
 }
 
-trait BorisGetRichGoal extends BorisHasMoneyState{
+trait BorisGetRichGoal extends BorisHasMoneyState {
   val borisGetRich = new Goal("Get the money", Seq(borisHasTheMoney))
+}
+
+trait TakeTheMoneyAction {
+  val takeTheMoneyAction = new Action("Take The Money", Seq(), Seq())
 }
