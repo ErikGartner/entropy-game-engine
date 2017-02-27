@@ -14,12 +14,12 @@ Entropy's central concept is that characters are proactive agents that actively 
 ## Installation
 
 Run using sbt:
-```bash
+```
 sbt run
 ```
 
 Run tests using:
-```bash
+```
 sbt test
 ```
 

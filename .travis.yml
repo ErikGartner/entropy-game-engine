@@ -4,5 +4,5 @@ jdk:
 scala:
    - 2.12.1
 script:
-- sbt test
-- sbt scalastyle
+  - sbt test
+  - sbt scalastyle
