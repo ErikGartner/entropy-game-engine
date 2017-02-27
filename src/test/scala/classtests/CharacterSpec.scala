@@ -8,16 +8,16 @@ class CharacterSpec extends FlatSpec with Matchers {
   }
 
   it should "have have goal" in new BorisGetRichGoal {
-    boris = Character(boris.name, boris.uid, Seq(borisGetRich))
-    assert(boris.goals.contains(borisGetRich))
+    val newBoris = boris.setGoals(Seq(borisGetRich))
+    newBoris.goals should contain (borisGetRich)
   }
 
   it should "not be equal to each other" in new GuyRitchieWorld {
-    assert(boris != vinny)
+    boris should not equal (vinny)
   }
 
   it should "equal if same uid" in new BorisCharacter {
-    boris should equal (Character("Boritta", boris.uid, Seq()))
+    boris should equal (new Character("Boritta", boris.uid, Seq()))
   }
 
 }
